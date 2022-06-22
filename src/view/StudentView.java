@@ -56,7 +56,7 @@ public class StudentView {
                 "Address",
                 "AverageScores");
         for (Student student : students) {
-            System.out.printf("%-15s %-30s %-25s %-10s %-20s %-20s %-20s\n",
+            System.out.printf("%-15s %-30s %-25s %-10s %-20s %-20s\n",
                     student.getStudentId(),
                     student.getStudentName(),
                     student.getStudentAge(),
@@ -277,7 +277,7 @@ public class StudentView {
     }
     public void showProductsSort(InputOption inputOption, List<Student> students) {
         System.out.println("════════════════════════════════════════════════════════ Wine List ════════════════════════════════════════════════════════");
-        System.out.printf("showStudents%-15s %-30s %-25s %-10s %-20s %-20s \n",
+        System.out.printf("%-15s %-30s %-25s %-10s %-20s %-20s \n",
                 "Id",
                 "Student Name ",
                 "Age",
@@ -285,7 +285,7 @@ public class StudentView {
                 "Address",
                 "AverageScores");
         for (Student student : students) {
-            System.out.printf("%-15s %-30s %-15s %-10s %-20s %-20s %-20s\n",
+            System.out.printf("%-15s %-30s %-15s %-10s %-20s %-20s \n",
                     student.getStudentId(),
                     student.getStudentName(),
                     student.getStudentAge(),
